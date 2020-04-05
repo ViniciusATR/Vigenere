@@ -41,7 +41,7 @@ object VigenereCipher {
   
   def main(args: Array[String]): Unit = {
     if (args.size == 0)
-      println("Pooooor favor utilize 3 argumentos de entrada:\nmodo (c/d)\narquivo_texto\nchave")
+      println("Por favor utilize 3 argumentos de entrada:\nmodo (c/d)\narquivo_texto\nchave")
     else{
       val mode = args(0)
       val txt  = Source.fromFile(args(1)).getLines.mkString
